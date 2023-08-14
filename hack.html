@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="hack.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fontawesome.com/icons/star?s=solid" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <title>Numerates Club</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script src="js/form.js"></script>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="1.jpeg"></a> 
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="trea.html">TREASURE HUNT</a></li>
+                    <li><a href="hack.html">HACKATHON</a></li>
+                    <li><a href="recr.html">RECRUITMENT</a></li>
+                    <li><a href="cont.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="text-box">
+            
+            <p>HACKATHON<br> </p>
+            
+        </div>
+
+    </section>
+
+    <form name="Form" onsubmit="return validateForm()" >
+        <h2>Registration Form</h2>
+        <div class="box">
+            <label>Full Name</label>
+            <input type="text" name="name" id="name">
+            <div class="error" id="nameErr"></div>
+        </div>
+        <div class="box">
+            <label>Email Address</label>
+            <input type="text" name="teamname" id="teamname">
+            <div class="error" id="emailErr"></div>
+        </div>
+        <div class="box">
+            <label>LinkedIn</label>
+            <input type="text" name="linkedin"  id="linkedin">
+            <div class="error" id="linkedinErr"></div>
+        </div>
+        <div class="box">
+            <label>GitHub</label>
+            <input type="text" name="github"  id="github">
+            <div class="error" id="githubErr"></div>
+        </div>
+    
+        
+    
+              <div class="box">
+                <label>Why do you want to take part in hackathon?</label>
+                <textarea name="textarea" cols="38" rows="6"></textarea>
+              <!--  <input type="textarea" name="address" id="address">-->
+                <div class="error" id="nameErr"></div>
+            </div>
+    
+    
+    
+        <div class="box">
+            <label>Branch</label>
+            <select name="country" id="country">
+                <option>Select</option>
+                <option>Computer Science</option>
+                <option>Management</option>
+                <option>Other</option>
+            </select> 
+            <div class="error" id="countryErr"></div>
+        </div>
+        <div class="box">
+            <label>Have you done a hackathon before?</label>
+            <div class="form-inline" id="que">
+                <label><input type="radio" name="que" value="Yes">Yes</label>
+                <label><input type="radio" name="que" value="No"> NO</label> 
+            </div>
+            <div class="error" id="queErr"></div>
+        </div>
+              
+        <div class="box">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    </body>
+    </html>

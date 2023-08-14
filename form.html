@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple HTML Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/form.js"></script>
+</head>
+<body>
+    <script src="js/form.js"></script>
+   
+        
+
+<form name="Form" onsubmit="return validateForm()" >
+    <h2>Registration Form</h2>
+    <div class="box">
+        <label>Full Name</label>
+        <input type="text" name="name" id="name">
+        <div class="error" id="nameErr"></div>
+    </div>
+    <div class="box">
+        <label>Email Address</label>
+        <input type="text" name="email" id="email">
+        <div class="error" id="emailErr"></div>
+    </div>
+    <div class="box">
+        <label>Mobile Number</label>
+        <input type="text" name="mobile" maxlength="10" id="mobile">
+        <div class="error" id="mobileErr"></div>
+    </div>
+
+    <div class="box">
+        <label>Date of Birth</label>
+        <select name="select2">
+            <option selected="selected">1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+          </select>
+        
+          <select name="select3">
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option>September</option>
+            <option>October</option>
+            <option>November</option>
+            <option>December</option>
+          </select>
+        
+          <select name="select4">
+            <option>1975</option>
+            <option>1976</option>
+            <option>1977</option>
+            <option>1978</option>
+            <option>1979</option>
+            <option>1980</option>
+            <option>1981</option>
+            <option>1982</option>
+            <option>1983</option>
+            <option>1984</option>
+            <option>1985</option>
+            <option>1986</option>
+            <option>1987</option>
+            <option>1988</option>
+            <option>1989</option>
+            <option>1990</option>
+            <option>1991</option>
+            <option>1992</option>
+            <option>1993</option>
+            <option>1994</option>
+            <option>1995</option>
+            <option>1996</option>
+            <option>1997</option>
+            <option>1998</option>
+            <option>1999</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option>2009</option>
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+          </select> </div>
+
+          <div class="box">
+            <label>Address</label>
+            <textarea name="textarea" cols="38" rows="6"></textarea>
+          <!--  <input type="textarea" name="address" id="address">-->
+            <div class="error" id="nameErr"></div>
+        </div>
+
+
+
+    <div class="box">
+        <label>Country</label>
+        <select name="country" id="country">
+            <option>Select</option>
+            <option>London</option>
+            <option>India</option>
+            <option>America</option>
+        </select> 
+        <div class="error" id="countryErr"></div>
+    </div>
+    <div class="box">
+        <label>Gender</label>
+        <div class="form-inline" id="gender">
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label> 
+        </div>
+        <div class="error" id="genderErr"></div>
+    </div>
+          
+    <div class="box">
+        <input type="submit" value="Submit">
+    </div>
+</form>
+
+
+</body>
+</html>

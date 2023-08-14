@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,30,0.7),rgba(0,0,30,0.7)),url("recr2.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.course{
+    width: 70%;
+}
+.corse-col1{
+    display: flex;
+    text-align: justify;
+    font-size: 18px;
+}
+.corse-col1 img{
+    padding: 15px;
+}
+.filine
+
+
+#amazon
+{
+    width: 150px;
+    height: 100px;
+    padding:0px;
+    margin: 6px;
+}
+
+#volks
+{
+    width: 180px;
+    height: 100px;
+    padding: 0px;
+    margin: 5px;
+}
+#reliance
+{
+    width: 180px;
+    height: 100px;
+    padding: 0;
+    margin: 5px;
+}
+
+#amdocs
+{
+    width: 180px;
+    height: 100px;
+    padding:0;
+    margin:5px
+}
+.seline
+#barclays
+{
+    width: 75px;
+    height: 50px;
+    padding: 0;
+    margin: 5px;
+object-fit: cover;
+}
+#force
+{
+    width: 90px;
+    height:80px;
+    padding:0;
+    margin: 12px;
+}
+#tata
+{
+    width: 180px;
+    height: 100px;
+    padding: 0;
+    margin:5px
+}
+#lg
+{
+    width: 180px;
+    height: 100px;
+    padding: 0;
+    margin: 5px;
+}
+.thiline
+#benz
+{
+    width: 100px;
+    height: 50px;
+    padding: 0;
+    margin: 5px;
+}
+#windows
+{
+    width: 180px;
+    height: 100px;
+    padding: 0;
+    margin: 5px;
+    object-fit: cover;
+}
+#hp
+{
+    width: 180px;
+    height: 50px;
+    padding: 0;
+    margin: 5px;
+    object-fit: 5px;
+}
+#ibm
+{
+    width: 180px;
+    height: 100px;
+    padding: 0;
+    margin: 5px;
+    object-fit: scale-down;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header1{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,30,0.7),rgba(0,0,30,0.7)),url("cont1.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    flex-basis: 50%;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 13px;
+    display: block;    
+}
+.whatsapp{
+    text-align: left;
+    margin: auto;
+    text-decoration: none;
+    font-weight: 500;
+}
+.phone{
+    margin: auto;
+    text-decoration: none;
+    font-weight: 500;
+}
+.email{
+    margin: auto;
+    text-decoration: none;
+    font-weight: 500;
+}
+.map1{
+    text-align: right;
+    display: block;
+       
+}
+.cont h3{
+    margin-top: 50px;
+}

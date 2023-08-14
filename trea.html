@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="trea.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fontawesome.com/icons/star?s=solid" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <title>Numerates Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <script src="js/form.js"></script>
+    <section class="header1">
+        <nav>
+            <a href="index.html"><img src="1.jpeg"></a> 
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="trea.html">TREASURE HUNT</a></li>
+                    <li><a href="hack.html">HACKATHON</a></li>
+                    <li><a href="recr.html">RECRUITMENT</a></li>
+                    <li><a href="cont.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="text-box">
+            <h1></h1>
+            <p><br> TREASURE HUNT</p>
+                
+        </div>
+
+    </section>
+
+    
+<form name="Form" onsubmit="return validateForm()" >
+    <h2>Registration Form</h2>
+    <div class="box">
+        <label>Full Name</label>
+        <input type="text" name="name" id="name">
+        <div class="error" id="nameErr"></div>
+    </div>
+    <div class="box">
+        <label>Team Name</label>
+        <input type="text" name="teamname" id="teamname">
+        <div class="error" id="emailErr"></div>
+    </div>
+    <div class="box">
+        <label>Mobile Number</label>
+        <input type="text" name="mobile" maxlength="10" id="mobile">
+        <div class="error" id="mobileErr"></div>
+    </div>
+
+    <!-- <div class="box">
+        <label>Date of Birth</label>
+        <select name="select2">
+            <option selected="selected">1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+          </select>
+        
+          <select name="select3">
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option>September</option>
+            <option>October</option>
+            <option>November</option>
+            <option>December</option>
+          </select>
+        
+          <select name="select4">
+            <option>1975</option>
+            <option>1976</option>
+            <option>1977</option>
+            <option>1978</option>
+            <option>1979</option>
+            <option>1980</option>
+            <option>1981</option>
+            <option>1982</option>
+            <option>1983</option>
+            <option>1984</option>
+            <option>1985</option>
+            <option>1986</option>
+            <option>1987</option>
+            <option>1988</option>
+            <option>1989</option>
+            <option>1990</option>
+            <option>1991</option>
+            <option>1992</option>
+            <option>1993</option>
+            <option>1994</option>
+            <option>1995</option>
+            <option>1996</option>
+            <option>1997</option>
+            <option>1998</option>
+            <option>1999</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option>2009</option>
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+          </select> </div> -->
+
+          <div class="box">
+            <label>Team Members</label>
+            <textarea name="textarea" cols="38" rows="6"></textarea>
+          <!--  <input type="textarea" name="address" id="address">-->
+            <div class="error" id="nameErr"></div>
+        </div>
+
+
+
+    <div class="box">
+        <label>Branch</label>
+        <select name="country" id="country">
+            <option>Select</option>
+            <option>Computer Science</option>
+            <option>Management</option>
+            <option>Other</option>
+        </select> 
+        <div class="error" id="countryErr"></div>
+    </div>
+    <!-- <div class="box">
+        <label>Gender</label>
+        <div class="form-inline" id="gender">
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label> 
+        </div>
+        <div class="error" id="genderErr"></div>
+    </div> -->
+          
+    <div class="box">
+        <input type="submit" value="Submit">
+    </div>
+</form>
+
+    
+
+  
+
+
+
+
+    
+</body>
+</html>
